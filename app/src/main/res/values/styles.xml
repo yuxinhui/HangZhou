@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+    <style name="stock_right_tab">
+        <item name="android:textSize">18dp</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="curriculumTitle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">#ccc</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="weekPanel_0">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:background">#ccc</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+    <style name="styles_pop_window">
+        <item name="@android:windowEnterAnimation">@anim/pop_enter</item>
+        <item name="@android:windowExitAnimation">@anim/pop_exit</item>
+    </style>
+    <style name="video_progressbar_style">
+        <item name="android:maxWidth">43.0dip</item>
+        <item name="android:maxHeight">43.0dip</item>
+        <item name="android:indeterminateDrawable">@drawable/biz_news_detailpage_loading_large_anim</item>
+        <item name="android:minWidth">43.0dip</item>
+        <item name="android:minHeight">43.0dip</item>
+    </style>
+</resources>

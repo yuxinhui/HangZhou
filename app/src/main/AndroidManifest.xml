@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jinfukeji.jinyihuiup">
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permissionn.RECORD_VIDEO" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <permission android:name="android.permission.INTERNET" />
+    <permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".JinYiHuiApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/NoActionBar">
+        <activity android:name=".yinDaoTu.YinDaoTuActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".yinDaoTu.GuideActivity" />
+        <activity android:name=".indexBannerClick.KeBiaoActivity" />
+        <activity android:name=".indexBannerClick.HanDanActivity" />
+        <activity android:name=".indexBannerClick.RiLiActivity" />
+        <activity android:name=".indexBannerClick.GuPiaoActivity" />
+        <activity android:name=".indexBannerClick.HuiLvActivity" />
+        <activity android:name=".indexBannerClick.LaoShiActivity" />
+        <activity android:name=".indexBannerClick.ZhiboActivity"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name=".indexBannerClick.AboutUsActivity" />
+        <activity android:name=".indexBannerClick.AdviceCommitActivity" />
+        <activity android:name=".indexBannerClick.VersionINfoActivity" />
+        <activity android:name=".indexBannerClick.MsgSettingActivity" />
+        <activity android:name=".indexBannerClick.MianDaRaoActivity"></activity>
+        <activity android:name=".indexBannerClick.ShenGuActivity"/>
+        <activity android:name=".activity.Zhuce" />
+        <activity android:name=".activity.KaiHu" />
+        <activity android:name=".activity.Denglu" />
+        <activity android:name=".activity.ZhuCeXiangQing" />
+        <activity android:name=".activity.GupiaoMessage"/>
+        <activity android:name=".activity.SplashActivity"/>
+        <activity android:name=".activity.PlayVideoActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".MainActivity"
+            android:launchMode="singleTask"/>
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>
