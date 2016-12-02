@@ -27,9 +27,7 @@ import com.jinfukeji.jinyihuiup.utils.DialogUtils;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by Administrator on 2016/6/1.
- */
+
 public class Denglu extends AppCompatActivity {
     private ImageView denglu_return_img;
     private ImageView denglu_home_img;
